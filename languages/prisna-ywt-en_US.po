@@ -1,0 +1,334 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Prisna YWT\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-24 00:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Prisna\n"
+"Language-Team:  <support@prisna.net>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: /dev/wp-content/plugins/yandex-website-translator\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/config.class.php:120
+msgid "No settings to export. The current settings are the default ones."
+msgstr ""
+
+#: classes/config.class.php:173
+msgid "Usage"
+msgstr ""
+
+#: classes/config.class.php:177
+#, php-format
+msgid ""
+"\n"
+"\t\t\t\t\n"
+"\t\t\t\t- Go to the <em>Appereance &gt; Widgets</em> panel, search for the "
+"following widget<br /><br />\n"
+"\t\t\t\t\n"
+"\t\t\t\t<code>%s</code><br /><br />\n"
+"\t\t\t\t\n"
+"\t\t\t\t- Or copy and paste the following code into pages, posts, etc...<br /"
+"><br />\n"
+"\t\t\t\t\n"
+"\t\t\t\t<code>[prisna-yandex-website-translator]</code><br /><br />\n"
+"\t\t\t\t\n"
+"\t\t\t\t- Or copy and paste the following code into any page, post or front "
+"end PHP file<br /><br />\n"
+"\t\t\t\t\n"
+"\t\t\t\t<code>&lt;?php echo do_shortcode('[prisna-yandex-website-"
+"translator]'); ?&gt;</code><br />\n"
+"\t\t\t\t\n"
+"\t\t\t\t"
+msgstr ""
+
+#: classes/config.class.php:205
+msgid "Yandex API key"
+msgstr ""
+
+#: classes/config.class.php:206
+msgid ""
+"Sets the key for the Yandex Translate API. <a href=\"https://tech.yandex.com/"
+"keys/get/?service=trnsl\" target=\"_blank\">Sign up for a free API key</a>"
+msgstr ""
+
+#: classes/config.class.php:207
+msgid ""
+"The translator needs a Yandex API key to work. <a href=\"https://tech.yandex."
+"com/keys/get/?service=trnsl\" target=\"_blank\">Sign up for a free API key</"
+"a>"
+msgstr ""
+
+#: classes/config.class.php:215
+msgid "Website's language"
+msgstr ""
+
+#: classes/config.class.php:216
+msgid "Sets the website's source language."
+msgstr ""
+
+#: classes/config.class.php:225
+msgid "Detect browser's language"
+msgstr ""
+
+#: classes/config.class.php:226
+msgid "Sets whether to detect the visitor browser's language, or not."
+msgstr ""
+
+#: classes/config.class.php:231
+msgid "Yes, detect the browser's language"
+msgstr ""
+
+#: classes/config.class.php:232
+msgid "No, don't detect the browser's language"
+msgstr ""
+
+#: classes/config.class.php:238
+msgid "Style mode"
+msgstr ""
+
+#: classes/config.class.php:251
+msgid "Align mode"
+msgstr ""
+
+#: classes/config.class.php:252
+msgid "Sets the alignment mode of the translator within its container."
+msgstr ""
+
+#: classes/config.class.php:257
+msgid "Left"
+msgstr ""
+
+#: classes/config.class.php:258
+msgid "Center"
+msgstr ""
+
+#: classes/config.class.php:259
+msgid "Right"
+msgstr ""
+
+#: classes/config.class.php:265
+msgid "Show flags over translator"
+msgstr ""
+
+#: classes/config.class.php:266
+msgid "Sets whether to display a few flags over the translator, or not."
+msgstr ""
+
+#: classes/config.class.php:271
+msgid "Yes, show flags"
+msgstr ""
+
+#: classes/config.class.php:272
+msgid "No, don't show flags"
+msgstr ""
+
+#: classes/config.class.php:278
+msgid "Select languages"
+msgstr ""
+
+#: classes/config.class.php:279
+msgid "Sets the available languages to display over the translator."
+msgstr ""
+
+#: classes/config.class.php:280
+msgid "Languages order"
+msgstr ""
+
+#: classes/config.class.php:281
+msgid "Defines the order to display the languages."
+msgstr ""
+
+#: classes/config.class.php:294
+msgid "Test mode"
+msgstr ""
+
+#: classes/config.class.php:295
+msgid ""
+"Sets whether the translator is in test mode or not. In \"test mode\", the "
+"translator will be displayed only if the current logged in user has admin "
+"privileges.<br />Is useful for setting up the translator without letting "
+"visitors to see the changes while the plugin is being implemented."
+msgstr ""
+
+#: classes/config.class.php:300
+msgid "Yes, enable test mode"
+msgstr ""
+
+#: classes/config.class.php:301
+msgid "No, disable test mode"
+msgstr ""
+
+#: classes/config.class.php:307
+msgid "Custom CSS"
+msgstr ""
+
+#: classes/config.class.php:308
+msgid "Defines custom CSS rules."
+msgstr ""
+
+#: classes/config.class.php:316
+msgid "Hide on pages, posts and categories"
+msgstr ""
+
+#: classes/config.class.php:325
+msgid "Pages"
+msgstr ""
+
+#: classes/config.class.php:326
+msgid "Selects the pages where the translator should not be displayed."
+msgstr ""
+
+#: classes/config.class.php:336
+msgid "Posts"
+msgstr ""
+
+#: classes/config.class.php:337
+msgid "Selects the posts where the translator should not be displayed."
+msgstr ""
+
+#: classes/config.class.php:347
+msgid "Categories"
+msgstr ""
+
+#: classes/config.class.php:348
+msgid "Selects the categories where the translator should not be displayed."
+msgstr ""
+
+#: classes/config.class.php:358
+msgid "Javascript callbacks"
+msgstr ""
+
+#: classes/config.class.php:367
+msgid "On before load"
+msgstr ""
+
+#: classes/config.class.php:368
+msgid "Defines a javascript routine that runs before the translator is loaded."
+msgstr ""
+
+#: classes/config.class.php:378
+msgid "On after load"
+msgstr ""
+
+#: classes/config.class.php:379
+msgid "Defines a javascript routine that runs after the translator is loaded."
+msgstr ""
+
+#: classes/config.class.php:389
+msgid "Templates"
+msgstr ""
+
+#: classes/config.class.php:398
+msgid "Flags container template"
+msgstr ""
+
+#: classes/config.class.php:399
+msgid ""
+"Sets the flags' container template. New templates can be created if the "
+"provided one doesn't fit the web page requirements."
+msgstr ""
+
+#: classes/config.class.php:411
+msgid "Flag template"
+msgstr ""
+
+#: classes/config.class.php:412
+msgid ""
+"Sets the flag's template. New templates can be created if the provided one "
+"doesn't fit the web page requirements."
+msgstr ""
+
+#: classes/config.class.php:424
+msgid "Import settings"
+msgstr ""
+
+#: classes/config.class.php:425
+msgid ""
+"Imports previously exported settings. Paste the previously exported settings "
+"in the field. If the data's structure is correct, it will overwrite the "
+"current settings."
+msgstr ""
+
+#: classes/config.class.php:433
+msgid "Export settings"
+msgstr ""
+
+#: classes/config.class.php:434
+msgid ""
+"Exports the current settings to make a backup or to transfer the settings "
+"from the development server to the production server. Triple click on the "
+"field to select all the content."
+msgstr ""
+
+#: classes/common.class.php:822
+#, php-format
+msgid "Add the %s."
+msgstr ""
+
+#: classes/common.class.php:840
+msgid "Title:"
+msgstr ""
+
+#: classes/admin.class.php:170
+msgid "Yandex Website Translator"
+msgstr ""
+
+#: classes/admin.class.php:171
+msgid "Settings saved."
+msgstr ""
+
+#: classes/admin.class.php:172
+msgid "Settings reseted."
+msgstr ""
+
+#: classes/admin.class.php:173
+msgid ""
+"All the settings will be reseted and restored to their default values. Do "
+"you want to continue?"
+msgstr ""
+
+#: classes/admin.class.php:174
+msgid "Save changes"
+msgstr ""
+
+#: classes/admin.class.php:175
+msgid "Reset settings"
+msgstr ""
+
+#: classes/admin.class.php:239 classes/admin.class.php:242
+msgid "General"
+msgstr ""
+
+#: classes/admin.class.php:241
+msgid "Advanced"
+msgstr ""
+
+#: classes/admin.class.php:243
+msgid "Premium"
+msgstr ""
+
+#: classes/admin.class.php:244
+msgid "Import / Export"
+msgstr ""
+
+#: classes/admin.class.php:245
+msgid "Settings succesfully imported."
+msgstr ""
+
+#: classes/admin.class.php:246
+msgid ""
+"There was a problem while importing the settings. Please make sure the "
+"exported string is complete. Changes weren't saved."
+msgstr ""
+
+#: classes/admin.class.php:247
+#, php-format
+msgid "Yandex Website Translator requires WordPress version %s or later."
+msgstr ""
